@@ -1,0 +1,19 @@
+.download{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,57,131,1) 0%, rgba(59,177,201,1) 100%) ;
+    
+}
+.download hr{
+    width: 15%;
+    margin-top: 5px;
+}
+.download h1{
+    margin-top: 10px;
+}
+.download button{
+    padding: 10px 20px;
+}

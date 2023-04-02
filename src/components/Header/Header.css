@@ -1,0 +1,107 @@
+section{
+    position: relative;
+}
+#header{
+    color: #fff;
+    
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 50px;
+   position: relative;
+    bottom: 60px;
+}
+.header{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 300;
+     margin-bottom: 15px;
+     color: black;
+}
+h1{
+    color: black;
+}
+hr{
+    border: 1px solid black;
+     margin-bottom: 15px;
+     width: 85%;
+
+}
+p{
+    line-height: 1.6;
+    color: black;
+}
+button{
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+     font-size: 17px;
+}
+.right{
+    background-color: orangered;
+    color: #fff;
+   
+}
+img{
+    width: 85%;
+}
+@media screen and (max-width:700px) {
+    .header{
+        font-size: 2rem;
+        
+    }
+}
+.floating-icon{
+    width: 5rem;
+    height: 5rem;
+    background: lightblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.mouse{
+    transform: translateY(-25%);
+    animation: bounce 0.8s ease infinite alternate;
+}
+@keyframes bounce {
+    0%{
+        transform:translateY(-25%)
+    }
+    100%{
+        transform: translateY(25%);
+    }
+}
+/* .floating-icon a{
+    border: 1px solid black;
+    width: 5rem;
+    height: 5rem;
+} */
+@media screen and (max-width:700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+        
+        
+    }
+    .container img{
+        width: 100%;
+        padding: 20px;
+        
+        
+    }
+}

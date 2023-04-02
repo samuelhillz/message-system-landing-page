@@ -1,0 +1,18 @@
+.feature{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    gap: 20px;
+}
+.feature-text h3{
+    line-height: 1.4;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(0, 136, 255);
+}
+.feature-text{
+    width: 100%;
+}
+.feature-text p{
+    
+}

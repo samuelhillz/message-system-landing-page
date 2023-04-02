@@ -1,0 +1,61 @@
+
+
+#subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    background: url(../../assets/subscribe-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.input input{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+    width: 350px;
+    font-size: 20px;
+    /* background: transparent; */
+}
+.input button{
+    background-color:lightblue ;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+
+}
+::placeholder{
+    color: black;
+    padding: 5px;
+}
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+
+}
+.social-icon{
+        margin: 15px;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 5px;
+        width:2.5rem ;
+        height: 2.5rem;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s;
+
+
+}
+.social-icon:hover{
+    background-color: lightblue;
+}
+@media screen and (max-width: 700px) {
+    }
